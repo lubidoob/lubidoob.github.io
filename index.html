@@ -6,14 +6,14 @@
         }
 
 	@media (min-device-height: 896px){
-		#logo {
+		.logo {
 			display: block;
 			width: 30%;
 			margin: 20em auto 0 auto;
 		}
 	}
         @media (max-device-height: 896px){
-            #logo {
+            .logo {
                 display: block;
                 width: 80%;
                 margin: 14em auto 0 auto;
@@ -26,9 +26,9 @@
     </head>
     <body>
 	<picture id="logo">
-            <source srcset="logo.webp" type="image/webp">
-            <source srcset="logo.png" type="image/png"> 
-            <img src="logo.png" alt="lubidoob logo">
+            <source srcset="logo.webp" type="image/webp" class="logo">
+            <source srcset="logo.png" type="image/png" class="logo"> 
+            <img src="logo.png" alt="lubidoob logo" class="logo">
         </picture>
         <div id="text-container">
             <h1>Lubidoob Spendenfonds</h1>
